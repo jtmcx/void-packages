@@ -1,0 +1,13 @@
+# Template file for 'rgbds'
+#
+pkgname=rgbds
+version=0.6.1
+revision=1
+build_style=cmake
+makedepends="libpng-devel bison"
+short_desc="Assembler and linker for the GameBoy"
+maintainer="Orphaned <orphan@voidlinux.org>"
+license="MIT"
+homepage="https://rgbds.gbdev.io/"
+distfiles="https://github.com/gbdev/rgbds/releases/download/v${version}/${pkgname}-${version}.tar.gz"
+checksum=872018509c6cbc2d9e947a1a6d509fd9dc56a010827f608c5f4fa46de2fa186a
